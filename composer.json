@@ -1,0 +1,40 @@
+{
+    "name": "fused/extend",
+    "description": "PHP SDK for Extend.com",
+    "keywords": [
+        "extend",
+        "extend.com"
+    ],
+    "homepage": "https://github.com/FusedInteractive/Extend",
+    "license": "MIT",
+    "authors": [{
+        "name": "Doug Sisk",
+        "homepage": "https://fusedagency.com"
+    }],
+    "support": {
+        "issues": "https://github.com/FusedInteractive/Extend/issues"
+    },
+    "require": {
+        "php": "^7.2",
+        "guzzlehttp/guzzle": "^6.3.1|^7.0.1"
+    },
+    "require-dev": {
+        "illuminate/support": "^6.0|^7.0|^8.0",
+        "symfony/var-dumper": "^4.3.4|^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fused\\Extend\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fused\\Extend\\Extend"
+            ],
+            "aliases": {
+                "Extend": "Fused\\Extend\\ExtendFacade"
+            }
+        }
+    }
+}
