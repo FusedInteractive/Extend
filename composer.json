@@ -30,7 +30,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Fused\\Extend\\Extend"
+                "Fused\\Extend\\ExtendServiceProvider"
             ],
             "aliases": {
                 "Extend": "Fused\\Extend\\ExtendFacade"
