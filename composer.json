@@ -15,11 +15,11 @@
         "issues": "https://github.com/FusedInteractive/Extend/issues"
     },
     "require": {
-        "php": "^7.2",
+        "php": "^7.0|^8.0",
         "guzzlehttp/guzzle": "^6.3.1|^7.0.1"
     },
     "require-dev": {
-        "illuminate/support": "^6.0|^7.0|^8.0",
+        "illuminate/support": "^5.5|^6.0|^7.0|^8.0",
         "symfony/var-dumper": "^4.3.4|^5.1"
     },
     "autoload": {
