@@ -14,7 +14,7 @@ class Extend
 
     private $sandbox = false;
 
-    protected $storeId;
+    private $storeId;
 
     private $version;
     
@@ -74,6 +74,11 @@ class Extend
         $this->sandbox = true;
 
         $this->setClient();
+    }
+
+    public function getStoreId()
+    {
+        return $this->storeId;
     }
 
     public function setStoreId(string $storeId)
