@@ -86,7 +86,7 @@ class Extend
     private function setClient()
     {
         $this->client = new Client([
-            'base_uri' => ($this->sandbox ? 'https://api-demo.helloextend.com' : 'https://api.helloextend.com') . '/' . $this->storeId,
+            'base_uri' => $this->sandbox ? 'https://api-demo.helloextend.com' : 'https://api.helloextend.com',
             'headers' => [
                 'Accept' => 'application/json; version=' . $this->version,
                 'Content-Type' => 'application/json',
