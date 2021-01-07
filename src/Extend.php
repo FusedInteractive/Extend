@@ -14,7 +14,7 @@ class Extend
 
     private $sandbox = false;
 
-    private $storeId;
+    protected $storeId;
 
     private $version;
     
