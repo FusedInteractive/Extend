@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Facade;
 /**
  * @see \Fused\Extend\Extend
  */
-class ExtendFacde extends Facade
+class ExtendFacade extends Facade
 {
     /**
      * Get the registered name of the component.
